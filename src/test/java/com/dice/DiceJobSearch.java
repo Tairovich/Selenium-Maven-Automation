@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -74,6 +75,7 @@ public class DiceJobSearch {
 		}
 		
 		driver.close();
+		System.out.println("Test completed " + LocalDateTime.now());
 	}
 
 }
