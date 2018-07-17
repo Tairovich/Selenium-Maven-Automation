@@ -5,7 +5,7 @@
     <classes>
       <class name="com.jobapplication.PersonalInfoTest">
         <methods>
-          <include name="fullNameEmptyTest"/>
+          <include name="submitFullApplication"/>
           <include name="navigateToHomePage"/>
           <include name="setUp"/>
         </methods>
