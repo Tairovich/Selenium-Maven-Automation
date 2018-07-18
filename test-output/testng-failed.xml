@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jobapplication.PersonalInfoTest">
+      <class name="webElements.ZohoElement">
         <methods>
-          <include name="submitFullApplication"/>
-          <include name="navigateToHomePage"/>
           <include name="setUp"/>
+          <include name="seleniumWebElementsForm"/>
         </methods>
-      </class> <!-- com.jobapplication.PersonalInfoTest -->
+      </class> <!-- webElements.ZohoElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
